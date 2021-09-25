@@ -1,0 +1,28 @@
+.container {
+  width: 450px;
+  border: 1px solid gray;
+  box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.75);
+  table-layout: fixed;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: blue;
+  color: white;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: grey;
+}

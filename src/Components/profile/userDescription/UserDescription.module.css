@@ -1,0 +1,34 @@
+.statsList {
+  justify-content: space-around;
+  display: flex;
+}
+
+.userPhoto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.userName {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.userTag {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.userLocation {
+  font-size: 16px;
+}
+
+.usertContainer {
+  background-color: aliceblue;
+  padding-bottom: 25px;
+}
+
+.statsListContainer {
+  background-color: aqua;
+}
