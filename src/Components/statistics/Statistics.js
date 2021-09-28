@@ -6,7 +6,7 @@ const Statistics = ({ statisticsData, title }) => {
   return (
     <>
       <div className={styles.statisticsContainer}>
-        <h2 className={styles.statisticsTitle}>{title}</h2>
+        {title && <h2 className={styles.statisticsTitle}>{title}</h2>}
         <ul className={styles.statisticsList}>
           {statisticsData.map((item) => (
             <li key={item.id} className={styles.statisticsItem}>
