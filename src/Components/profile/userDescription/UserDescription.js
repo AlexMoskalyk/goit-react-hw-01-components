@@ -26,11 +26,15 @@ const UserDescription = ({
 };
 
 UserDescription.propTypes = {
-  avatar: PropTypes.string,
-  name: PropTypes.string,
-  location: PropTypes.string,
-  tag: PropTypes.string,
-  stats: PropTypes.object,
+  userData: PropTypes.object.isRequired,
 };
+
+// UserDescription.propTypes = {
+//   avatar: PropTypes.string,
+//   name: PropTypes.string,
+//   location: PropTypes.string,
+//   tag: PropTypes.string,
+//   stats: PropTypes.object,
+// };
 
 export default UserDescription;

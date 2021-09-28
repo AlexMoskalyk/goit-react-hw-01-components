@@ -1,9 +1,9 @@
 import React from "react";
-import userData from "../../data/user.json";
+
 import UserDescription from "./userDescription/UserDescription";
 import styles from "./Profile.module.css";
 
-const Profile = () => {
+const Profile = ({ userData }) => {
   return (
     <>
       <div className={styles.profileContainer}>

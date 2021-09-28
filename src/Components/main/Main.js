@@ -7,12 +7,13 @@ import friendsData from "../../data/friends.json";
 import TransactionHistory from "../transactionHistory/TransactionHistory";
 import transactionData from "../../data/transactions.json";
 import Section from "../section/Section";
+import userData from "../../data/user.json";
 
 const Main = () => {
   return (
     <>
       <Section title="Profile">
-        <Profile />
+        <Profile userData={userData} />
       </Section>
       <Section title="Statistics">
         <Statistics statisticsData={statisticsData} title="Upload stats" />
